@@ -2,21 +2,21 @@
 
 Working demo apps you can fork, deploy, and make your own. Each app is an independent public GitHub template with realistic demo content, setup instructions, deployment settings, a license, and automated checks.
 
-| Sample | Stack | Try it | Simplifyd deployment |
+| Sample | Stack | Try it | Deploy |
 | --- | --- | --- | --- |
-| [Launchpad](https://github.com/SimplifydCloud/sample-react-launchpad) | React + Vite | Plan a launch, move tasks, watch progress, export your board | Static site · `dist` |
-| [Atlas](https://github.com/SimplifydCloud/sample-nextjs-atlas) | Next.js App Router | Explore six African cities, save a shortlist, build a day plan | Static site · `out` |
-| [Signal](https://github.com/SimplifydCloud/sample-laravel-signal) | Laravel 13 + Blade + PostgreSQL | Submit ideas, vote, search, and explore a roadmap | Laravel app · PHP 8.4 · port 8080 |
+| [Launchpad](https://github.com/SimplifydCloud/sample-react-launchpad) | React + Vite | Plan a launch, move tasks, watch progress, export your board | [![Deploy to Simplifyd Cloud](https://simplifyd.com/deploy-button.svg)](https://console.cloud.simplifyd.com/deploy?repo=https%3A%2F%2Fgithub.com%2FSimplifydCloud%2Fsample-react-launchpad) |
+| [Atlas](https://github.com/SimplifydCloud/sample-nextjs-atlas) | Next.js App Router | Explore six African cities, save a shortlist, build a day plan | [![Deploy to Simplifyd Cloud](https://simplifyd.com/deploy-button.svg)](https://console.cloud.simplifyd.com/deploy?repo=https%3A%2F%2Fgithub.com%2FSimplifydCloud%2Fsample-nextjs-atlas) |
+| [Signal](https://github.com/SimplifydCloud/sample-laravel-signal) | Laravel 13 + Blade + PostgreSQL | Submit ideas, vote, search, and explore a roadmap | [![Deploy to Simplifyd Cloud](https://simplifyd.com/deploy-button.svg)](https://console.cloud.simplifyd.com/deploy?repo=https%3A%2F%2Fgithub.com%2FSimplifydCloud%2Fsample-laravel-signal) |
 
 ## Start here
 
-1. Open a sample and click **Use this template → Create a new repository**.
-2. Follow its README to run locally or connect your repository to Simplifyd Cloud.
-3. Try the main interaction, change something, and deploy again.
+1. Click a **Deploy to Simplifyd Cloud** button to open that app’s stack, choose a workspace and project, and review the services.
+2. Confirm, then deploy the services from the canvas (Signal’s database before its web service). The buttons use public container images and incur normal Simplifyd usage charges.
+3. To customise an app, open its repository and choose **Use this template → Create a new repository**, then follow its README.
 
 React and Next.js need no API keys or backend. Their saved state stays in your browser. Signal uses SQLite locally and managed PostgreSQL for a persistent cloud deployment. Its Docker Compose option lets you try it without installing PHP.
 
-Managed GitHub builds need to be enabled on your Simplifyd installation. Every frontend can also be uploaded as a built zip, and every app includes a Dockerfile.
+The deploy buttons use prebuilt container images and need no GitHub build setup. For source-based deployment, managed GitHub builds need to be enabled on your Simplifyd installation. React and Next.js also support static-site deployment from GitHub or a built zip; every app includes a Dockerfile.
 
 ## Launchpad · Give your next launch a home
 
